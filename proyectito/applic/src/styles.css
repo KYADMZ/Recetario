@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'Jacquard';
+    src: url('./assets/Jacquard24-Regular.ttf');
+  } 
+ h1 {
+    font-family: 'Jacquard';
+}
+body {
+  background-color: #f5d6b2; 
+  min-height: 100vh;
+}
