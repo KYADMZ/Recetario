@@ -14,7 +14,7 @@ import { Route, Router } from '@angular/router';
 export class RecetasComponent {
 
   recetas: string[]=['Pure de papa','Espaguetti a la carbonara','Licuado de mango'];
-
+  audio = new Audio('assets/poyoyo.mp3');
   id=0;
   botonid(){
     this.id = this.id+1;
@@ -26,12 +26,15 @@ export class RecetasComponent {
   }
   espaguetti(){
     this.router.navigate(['/recetas/espaguetti-a-la-carbonara']);
+    this.audio.play();
   }
   licuadomango(){
     this.router.navigate(['/recetas/licuado-de-mango']);
+    this.audio.play();
   }
   purepapa(){
     this.router.navigate(['/recetas/pure-de-papa']);
+    this.audio.play();
   }
 
   redirect(id: any): void {
@@ -51,5 +54,4 @@ export class RecetasComponent {
     }
   }
 
-  
 }

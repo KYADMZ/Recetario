@@ -18,6 +18,12 @@ export class LicuadoDeMangoComponent {
 Ingredientes: string[]=['1 Lata de leche evaporada','1/2 taza de mango congelado','3 cucharadas de azucar'];
 
 Procedimiento: string[]=['Licua la Leche evaporada con el mango y azucar. Sirve en vasos y agrega hielo'];
+
+audio = new Audio('assets/poyoyo.mp3');
+
+playSound() {
+  this.audio.play();
+}
 }
 
 
