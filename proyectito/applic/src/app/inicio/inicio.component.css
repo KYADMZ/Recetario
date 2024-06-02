@@ -19,6 +19,14 @@
     max-width: 380px;
     margin: 0 auto;
   }
+  .navbarkirbo{
+    background-image: image-set('./assets/kirbbo.jpg');
+    background-size: 100%;
+    background-size: cover;
+    color: white;
+    height: 250px;
+    max-width: 260px;
+  }
   .navbarinicio {
     background-color: #f19233;
     padding: 10px;
