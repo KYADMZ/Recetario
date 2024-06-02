@@ -29,6 +29,21 @@ img.centrado {
   max-width: 380px;
   margin: 0 auto;
 }
+img.kirbohappy{
+  display: block;
+  max-width: 50px;
+  max-height: 50px;
+  margin-bottom: 0;
+  margin-right: 0;
+}
+
+.navbarkirbohappy{
+  
+  color: rgb(0, 0, 0);
+  height: 250px;
+  max-width: 380px;
+  margin: 0 auto;
+}
 .navbarinicio {
   background-color: #f19233;
   padding: 10px;
