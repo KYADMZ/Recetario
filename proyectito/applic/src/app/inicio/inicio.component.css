@@ -26,6 +26,7 @@
     color: white;
     height: 250px;
     max-width: 260px;
+    margin: 0 auto;
   }
   .navbarinicio {
     background-color: #f19233;
@@ -72,4 +73,9 @@
   .contenido-footer p {
     margin-bottom: 10px; 
     margin-top: auto;
+  }
+
+  #texto{
+    text-align: center;
+    font-size: larger;
   }
