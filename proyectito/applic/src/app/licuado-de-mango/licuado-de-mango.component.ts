@@ -14,6 +14,9 @@ export class LicuadoDeMangoComponent {
   inicio(){
     this.router.navigate(['/inicio']);
   }
+  Recetas(){
+    this.router.navigate(['/recetas']);
+  }
 
 Ingredientes: string[]=['1 Lata de leche evaporada','1/2 taza de mango congelado','3 cucharadas de azucar'];
 

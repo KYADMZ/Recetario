@@ -16,8 +16,11 @@ export class EspaguettiALaCarbonaraComponent {
     inicio(){
       this.router.navigate(['/inicio']);
     }
+    Recetas(){
+      this.router.navigate(['/recetas']);
+    }
   
-  Ingredientes: string[]=['1/2 kilo de spaguetti','2 cucharadas de aceite de oliva','2 onzas de tocino','3 dientes de ajo, picaditos',
+  Ingredientes: string[]=['1/2 kilo de espaguetti','2 cucharadas de aceite de oliva','2 onzas de tocino','3 dientes de ajo, picaditos',
     '2 huevos grandes','1 taza de queso parmesano rallado','pimienta negra','perejil picado'];
 
   Procedimiento: string[]=['Prepare la salsa mientras pone a cocinar la pasta para que la pata este muy caliente y ayude a cocinar la salsa',

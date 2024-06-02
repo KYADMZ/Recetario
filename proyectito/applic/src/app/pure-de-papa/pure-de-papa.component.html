@@ -1,18 +1,19 @@
 <nav class="navbarkirbo">
   <ul class="navbar-nav">   
     <li class="nav-item"><button class="nav-link" (click)="inicio()">Al inicio</button></li>
+    <li class="nav-item"><button class="nav-link" (click)="Recetas()">Recetas</button></li>
   </ul>
 </nav>
-  <div><section><h1>PURÉ DE PAPA</h1></section></div>
+  <div><section><h1 id="texto">PURÉ DE PAPA</h1></section></div>
   <section>
-    <h1>Ingredientes:</h1>
+    <h1 id="texto">Ingredientes:</h1>
     <ul>
-        <li *ngFor="let Ingredientes of Ingredientes"><a class="navbarkirbohappy"><li style="margin-inline-end: 20cap;">{{ Ingredientes }}</a></li>
+        <li *ngFor="let Ingredientes of Ingredientes"><a class="navbarkirbohappy"><li id="texto">{{ Ingredientes }}</a></li>
       </ul>
 </section><br>
 <section>
-    <h1>Procedimiento:</h1>
+    <h1 id="texto">Procedimiento:</h1>
     <ul>
-        <li *ngFor="let Procedimiento of Procedimiento"><a class="navbarkirbohappy"><li>{{ Procedimiento }}</a></li>
+        <li *ngFor="let Procedimiento of Procedimiento"><a class="navbarkirbohappy"><li id="texto">{{ Procedimiento }}</a></li>
       </ul>
 </section>

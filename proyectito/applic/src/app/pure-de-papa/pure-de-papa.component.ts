@@ -14,6 +14,9 @@ export class PureDePapaComponent {
   inicio(){
     this.router.navigate(['/inicio']);
   }
+  Recetas(){
+    this.router.navigate(['/recetas']);
+  }
 
 Ingredientes: string[]=['6 Papas peladas y cocidas','1 Envase de Leche Evaporada(360g)',
   '2 Cucharadas de mantequilla','1 Cucharada de consomé de pollo en polvo','1/2 Cucharadita de pimienta negra molida'

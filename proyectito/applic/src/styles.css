@@ -3,9 +3,7 @@
     font-family: 'Jacquard';
     src: url('./assets/Jacquard24-Regular.ttf');
   } 
- h1 {
-    font-family: 'Jacquard';
-}
+ 
 body {
   background-color: #b1e4ea; 
   min-height: 100vh;
