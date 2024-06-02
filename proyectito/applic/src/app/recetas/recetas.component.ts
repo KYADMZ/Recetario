@@ -31,7 +31,7 @@ export class RecetasComponent {
     this.router.navigate(['/recetas/licuado-de-mango']);
   }
   purepapa(){
-    this.router.navigate(['/recetas/pure-de-papas']);
+    this.router.navigate(['/recetas/pure-de-papa']);
   }
 
   redirect(id: any): void {

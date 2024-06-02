@@ -1,1 +1,18 @@
-<p>pure-de-papa works!</p>
+<nav class="navbarkirbo">
+  <ul class="navbar-nav">   
+    <li class="nav-item"><button class="nav-link" (click)="inicio()">Al inicio</button></li>
+  </ul>
+</nav>
+  <div><section><h1>PURÉ DE PAPA</h1></section></div>
+  <section>
+    <h1>Ingredientes:</h1>
+    <ul>
+        <li *ngFor="let Ingredientes of Ingredientes"><a class="navbarkirbohappy"><li style="margin-inline-end: 20cap;">{{ Ingredientes }}</a></li>
+      </ul>
+</section><br>
+<section>
+    <h1>Procedimiento:</h1>
+    <ul>
+        <li *ngFor="let Procedimiento of Procedimiento"><a class="navbarkirbohappy"><li>{{ Procedimiento }}</a></li>
+      </ul>
+</section>
