@@ -25,12 +25,8 @@
     background-size: cover;
     color: white;
     height: 250px;
-<<<<<<< Updated upstream
-    max-width: 260px;
+    max-width: 380px;
     margin: 0 auto;
-=======
-    max-width: 420px;
->>>>>>> Stashed changes
   }
   .navbarinicio {
     background-color: #f19233;
