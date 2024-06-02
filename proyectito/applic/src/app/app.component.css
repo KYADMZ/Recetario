@@ -1,44 +1,10 @@
 
-  
-  .navbar {
-    background-color: #e37608;
-    padding: 10px;
-    max-width: 380px;
-    margin: 0 auto;
-  }
-  .navbarinicio {
-    background-color: #f19233;
-    padding: 10px;
-    max-width: 120px;
-    margin: 0 auto;
-  }
-  
-  .navbar-nav {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-  }
-  
-  .nav-item {
-    margin-right: 10px;
-  }
-  
-  .nav-link {
-    background-color: #ecb602;
-    border: none;
-    color: white;
-    padding: 20px 30px;
-    text-decoration: none;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
   footer {
-    background-color: #c40d0d;
+    background-color: #666666;
     color: white;
     padding: 10px 0; 
     text-align: center;
+    font-size: large;
   }
   
   .contenido-footer {

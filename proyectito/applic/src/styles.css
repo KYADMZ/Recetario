@@ -10,3 +10,12 @@ body {
   background-color: #b1e4ea; 
   min-height: 100vh;
 }
+.navbarkirbo{
+  background-image: image-set('./assets/kirbochef.jpg');
+  background-size: 100%;
+  background-size: cover;
+  color: white;
+  height: 250px;
+  max-width: 260px;
+  margin: 0 auto;
+}
