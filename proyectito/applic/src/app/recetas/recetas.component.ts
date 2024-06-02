@@ -10,11 +10,15 @@ import { Route, Router } from '@angular/router';
   templateUrl: './recetas.component.html',
   styleUrl: './recetas.component.css'
 })
+
 export class RecetasComponent {
 
   recetas: string[]=['Pure de papa','Espaguetti a la carbonara','Licuado de mango'];
 
-
+  id=0;
+  botonid(){
+    this.id = this.id+1;
+  }
   constructor(private router: Router){}
 
   inicio(){
@@ -30,6 +34,22 @@ export class RecetasComponent {
     this.router.navigate(['/recetas/pure-de-papas']);
   }
 
-  
+  redirect(id: any): void {
+    
+    switch (id) {
+      case '1':
+        this.router.navigate(['/recetas/pure-de-papas']);
+        break;
+      case '2':
+        this.router.navigate(['/recetas/espaguetti-a-la-carbonara']);
+        break;  
+      case '3':
+        this.router.navigate(['/recetas/licuado-de-mango']);
+        break;
+      default:
+        break;
+    }
+  }
+
   
 }
