@@ -16,7 +16,8 @@ img.centrado {
 .navbar {
   background-color: #e37608;
   padding: 10px;
-  max-width: 380px;
+  max-width: 100px;
+  max-height: 100px;
   margin: 0 auto;
 }
 
@@ -38,11 +39,12 @@ img.kirbohappy{
 }
 
 .navbarkirbohappy{
-  
+ 
   color: rgb(0, 0, 0);
   height: 250px;
   max-width: 380px;
   margin: 0 auto;
+  
 }
 .navbarinicio {
   background-color: #f19233;
