@@ -20,13 +20,17 @@
     margin: 0 auto;
   }
   .navbarkirbo{
-    background-image: image-set('./assets/kirbbo.jpg');
+    background-image: image-set('./assets/kirbochef.jpg');
     background-size: 100%;
     background-size: cover;
     color: white;
     height: 250px;
+<<<<<<< Updated upstream
     max-width: 260px;
     margin: 0 auto;
+=======
+    max-width: 420px;
+>>>>>>> Stashed changes
   }
   .navbarinicio {
     background-color: #f19233;
