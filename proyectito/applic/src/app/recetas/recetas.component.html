@@ -22,4 +22,17 @@
     <br>
   </div>
 </section>
+
+<section>
+  <h1 id="texto">COMPRA DE PRODUCTOS:</h1>
+
+  <div *ngFor="let receta of recetas" id="texto"><br>
+    <label>{{ receta }}</label>&nbsp;
+    <input type="number" [(ngModel)]="cantidades[receta]" placeholder="Cantidad">&nbsp;&nbsp;Precio por unidad: ${{ precios[receta] }}
+  </div><br>
+
+  <button (click)="calcularTotalGeneral()" id="texto">Calcular Total</button>
+
+  <p id="texto">Monto a pagar: ${{ total }}</p>
+</section>
     

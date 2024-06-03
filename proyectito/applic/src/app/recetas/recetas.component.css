@@ -96,6 +96,10 @@ footer {
   margin-top: auto;
 }
 
+.input-container {
+  margin-top: 20px;
+}
+
 #texto{
   text-align: center;
   font-size: larger;
